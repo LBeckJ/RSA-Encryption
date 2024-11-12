@@ -2,7 +2,7 @@
 Encrypt and Decrypt messages with the RSA algorithm (På dansk)
 ---
 # Usage
-*
+***
 At the top of the code choose the variables p and q. These variables are two prime-number (The larger the number, the safer the encryption)
 
 Then you can set the message to anything you want.
