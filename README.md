@@ -1,5 +1,4 @@
-RSA-Encryption
----
+# RSA-Encryption
 Encrypt and Decrypt messages with the RSA algorithm (På dansk)
 ---
 # Usage
