@@ -57,13 +57,13 @@ def enkryptering(besked, e, N):
 
 def dekryptering(besked, d, N):
     enkodet_besked = [pow(c, d, N) for c in besked]
-    bukstavs_besked = [chr(c) for c in enkodet_besked]
-    return bukstavs_besked
+    bogstavs_besked = [chr(c) for c in enkodet_besked]
+    return bogstavs_besked
 
 
-bukstavs_besked = "RSA-enkryptering"
+bogstavs_besked = "RSA-enkryptering"
 
-enkrypteret_besked = enkryptering(bukstavs_besked, e, N)
+enkrypteret_besked = enkryptering(bogstavs_besked, e, N)
 print(f"\nOffentlige Eksponent: {e} og Modulooperator: {N}")
 print(enkrypteret_besked)
 
